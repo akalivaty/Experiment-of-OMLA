@@ -1,0 +1,5 @@
+ABC command line: "read_lib /home/jimmy/yuvaProject/PA2/nangate45.lib; read -m /home/jimmy/yuvaProject/PA2/ALMOST/locked_netlists/c1355/locked_c1355_k64_orig.v;strash;rewrite -z;refactor -z;rewrite;resub -z;refactor -z;resub;resub -z;refactor -z;refactor -z;resub;map;topo; write_verilog /home/jimmy/yuvaProject/PA2/ALMOST/dump/c1355_sa/run128/synthesized/locked_c1355_k64_orig_synthesized.v;stime ".
+
+Library "NangateOpenCellLibrary" from "/home/jimmy/yuvaProject/PA2/nangate45.lib" has 90 cells (35 skipped: 21 seq; 6 tri-state; 8 no func; 10 dont_use).  Time =     0.09 sec
+Warning: Detected 2 multi-output gates (for example, "FA_X1").
+WireLoad = "none"  [1;33mGates =    585[0m ( 17.4 %)   [1;32mCap =  3.2 ff[0m (  0.0 %)   [1;36mArea =      584.93[0m (100.0 %)   [1;35mDelay =   753.31 ps[0m  (  7.0 %)               
